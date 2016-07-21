@@ -1,0 +1,9 @@
+"plot for limb darkening fit we did yesterday for the 16 bin data that they handle us"
+
+plt.figure()
+plt.errorbar(w16,ups,xerr=up_ex,yerr=up_ey)
+plt.xlabel(r'Wavelength [$\mu$m]')
+plt.ylabel('u')
+#plt.savefig('limb_dark.eps')
+plt.savefig('limb_dark.png')
+plt.show()
